@@ -7,14 +7,15 @@
 body{
     background: #dfe9f5;
 }
-.weapper{
-    width:330px;
+.wrapper{
+    width: 330px;
     padding: 2rem 1rem;
-    margin: 50px;
+    margin: 50px auto;
     background-color: #fff;
     border-radius: 10px;
     text-align: center;
-    box-shadow:0 20px 35px rgba(0,0,0,0.1) ;
+    box-shadow: 0 20px 35px rgba(0,0,0,0.1);
+   
 }
 h1{
     font-size: 2rem;
@@ -41,10 +42,10 @@ button{
     width:90%;
     color: #fff;
     cursor: pointer;
-    background: rgb(17,107,143);
+    background: rgb(9, 65, 175);
 }
 button:hover{
-    background: rgba(17,107,143,0.877);
+    background: rgba(19, 82, 206, 0.877);
 
 }
 input:focus{
@@ -64,7 +65,7 @@ input:focus{
     font-size: 0.7rem;
 }
 .terms a{
-    color rgb(17,107,143);
+    color: rgb(17,107,143);
     text-decoration: none;
 }
 .member{
@@ -86,3 +87,21 @@ input:focus{
     text-decoration: none;
     color: #464647;
 }
+ 
+  
+  @media screen and (max-width: 480px) {
+    .wrapper {
+      width: 90%;
+      margin: 20px auto;
+    }
+    form input {
+      width: 100%;
+    }
+  }
+  
+ 
+  
+  
+ 
+    
+  
